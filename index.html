@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nostalji, Yvanie</title>
+  <meta name="description" content="Nostalji, Yvanie — yon powèm nan lang kreyòl ayisyen, douz vèsè.">
+  <meta name="theme-color" content="#0d0b1a">
+
+  <!-- Adds the "js" class before first paint so hidden-until-revealed styles only apply when scripts run -->
+  <script>document.documentElement.classList.add('js');</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="backdrop" aria-hidden="true"></div>
+  <canvas id="sky" aria-hidden="true"></canvas>
+
+  <nav class="dots" id="dots" aria-label="Vèsè"></nav>
+
+  <header class="hero" id="hero" data-hue="40">
+    <h1 class="title">
+      <span class="title-word" data-split>Nostalji,</span>
+      <span class="title-word title-name" data-split>Yvanie</span>
+    </h1>
+    <div class="rule" aria-hidden="true"></div>
+    <a class="cue" href="#v1">Kòmanse li</a>
+  </header>
+
+  <main>
+
+    <section class="verse" id="v1" data-hue="40">
+      <span class="numeral" aria-hidden="true">I</span>
+      <p class="stanza">
+        <span class="line">Mwen chita map mande pouki,</span>
+        <span class="line">Ou kite mwen la ou pati,</span>
+        <span class="line">Al kontinye mennen yon vi,</span>
+        <span class="line">Kote mwen pa la poum fèw souri.</span>
+      </p>
+    </section>
+
+    <section class="verse" id="v2" data-hue="22">
+      <span class="numeral" aria-hidden="true">II</span>
+      <p class="stanza">
+        <span class="line">Mwen oblije mande lanati,</span>
+        <span class="line">Poul edem jwen yon jeni,</span>
+        <span class="line">Pou ve mwen yo ta akonpli.</span>
+        <span class="line">Men se domaj sa pa reyisi.</span>
+      </p>
+    </section>
+
+    <section class="verse" id="v3" data-hue="5">
+      <span class="numeral" aria-hidden="true">III</span>
+      <p class="stanza">
+        <span class="line">Gen anpil bagay mwen vle di</span>
+        <span class="line">Mwen vle pale de sa map sibi,</span>
+        <span class="line">Lèm wè nou paka pran plezi,</span>
+        <span class="line">Mwen ta pouse yon gwo kri,</span>
+      </p>
+    </section>
+
+    <section class="verse" id="v4" data-hue="-18">
+      <span class="numeral" aria-hidden="true">IV</span>
+      <p class="stanza">
+        <span class="line">Mache nan tout lari,</span>
+        <span class="line">Tankou yon moun depafini,</span>
+        <span class="line">Poum fè konnen sam santi,</span>
+        <span class="line">Kisa ki koz map soufri.</span>
+      </p>
+    </section>
+
+    <section class="verse" id="v5" data-hue="-40">
+      <span class="numeral" aria-hidden="true">V</span>
+      <p class="stanza">
+        <span class="line">San prezans ou map peri</span>
+        <span class="line">Map manje men map megri</span>
+        <span class="line">Ou ta di se moun ki malnouri</span>
+        <span class="line">Vin potem sekou <em class="name">Yvanie!</em></span>
+      </p>
+    </section>
+
+    <section class="verse" id="v6" data-hue="-65">
+      <span class="numeral" aria-hidden="true">VI</span>
+      <p class="stanza">
+        <span class="line">Avèm ou ka pa gen yon bèl avni</span>
+        <span class="line">Men ansanm ann kreye bèl souvni</span>
+        <span class="line">Pou pi devan nan fiti</span>
+        <span class="line">Nou pa regrèt nou pat jwi</span>
+      </p>
+    </section>
+
+    <section class="verse" id="v7" data-hue="-90">
+      <span class="numeral" aria-hidden="true">VII</span>
+      <p class="stanza">
+        <span class="line">De a twa mo ki,</span>
+        <span class="line">Sot nan kèm map ekri,</span>
+        <span class="line">Mwen swetew gen chans li</span>
+        <span class="line">Ou pa janm konn lavi.</span>
+      </p>
+    </section>
+
+    <section class="verse" id="v8" data-hue="-112">
+      <span class="numeral" aria-hidden="true">VIII</span>
+      <p class="stanza">
+        <span class="line">E menm si pa gen garanti</span>
+        <span class="line">Ak kouraj, mwen pap febli</span>
+        <span class="line">Nan bwa lòt ann ret ini,</span>
+        <span class="line">Mwen vle nu ret zanmi.</span>
+      </p>
+    </section>
+
+    <section class="verse" id="v9" data-hue="-135">
+      <span class="numeral" aria-hidden="true">IX</span>
+      <p class="stanza">
+        <span class="line">M paka bliye janw janti</span>
+        <span class="line">Anplis ou se yon bèl sexy</span>
+        <span class="line">Kap fè tèt mwen pati</span>
+        <span class="line">Epiw vle tout bagay fini?</span>
+      </p>
+    </section>
+
+    <section class="verse" id="v10" data-hue="-158">
+      <span class="numeral" aria-hidden="true">X</span>
+      <p class="stanza">
+        <span class="line">Ou se yon si bèl kreyati,</span>
+        <span class="line">Mpa jwenn mo poum defini,</span>
+        <span class="line">Kijan ou fèm anvi</span>
+        <span class="line">Ret prèw jiska lenfini</span>
+      </p>
+    </section>
+
+    <section class="verse" id="v11" data-hue="-12">
+      <span class="numeral" aria-hidden="true">XI</span>
+      <p class="stanza">
+        <span class="line">Mwen vle manjew tou kri</span>
+        <span class="line">Pouw anbam wap ranni</span>
+        <span class="line">Jis mwen fèw vini</span>
+        <span class="line">San mwen pa bliye fèw pipi</span>
+      </p>
+    </section>
+
+    <section class="verse" id="v12" data-hue="40">
+      <span class="numeral" aria-hidden="true">XII</span>
+      <p class="stanza">
+        <span class="line">Mwen gentan gen nostalji</span>
+        <span class="line">De jan ansanm nou te konn ri.</span>
+        <span class="line">E menm si tout sa ta pèdi,</span>
+        <span class="line">Mwen swete nou kwaze <em class="paris">Paris</em>.</span>
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="finale" id="finale" data-hue="40">
+    <p class="finale-text">Fen</p>
+    <button class="again" id="again" type="button">Li l ankò</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
